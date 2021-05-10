@@ -6,7 +6,7 @@
         XOR AX, AX; Limpiando el registro
         XOR BX, BX; Limpiando el registro
         mov word CX, 5d; Asigno 5d a CX para que realice 5 iteraciones por los 5 dígitos de mi carnet
-        mov BX, 8d; Le paso a DI el divisor
+        mov BX, 8d; Le paso a BX el divisor
         mov byte [200h],1d
         mov byte [201h],1d
         mov byte [202h],4d
